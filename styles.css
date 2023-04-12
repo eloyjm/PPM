@@ -1,0 +1,472 @@
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1040px) {
+    .top-big {
+        display: block; /* Mostrar encabezado grande */
+        background-color: white;
+    }
+    .top-small {
+        display: none; /* Ocultar encabezado pequeño */
+    }
+
+    body {
+        padding-top: 120px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 1040px) {
+    .top-big {
+        display: none; /* Ocultar encabezado grande */
+
+    }
+    .top-small {
+        display: block; /* Mostrar encabezado pequeño */
+        background-color: white;
+    }
+    body {
+        padding-top: 100px;
+    }
+}
+
+ul {
+    list-style:none;
+}
+a.link{
+    color:black;
+    text-decoration:none;
+}
+a.link:hover{
+    color:#006da3;
+    text-decoration:none;
+}
+
+.top-line{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.top-menu {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.list-top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-top li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.list-top li a {
+    color:black;
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.list-top li a:hover {
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.list-trending {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-trending li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.list-trending li a {
+    color:black;
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    text-decoration:none;
+}
+
+.list-trending li a:hover {
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.boton-home {
+    color:black;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.boton-azul-large {
+    letter-spacing: initial;
+    text-transform: capitalize;
+    height: 2rem;
+    width: 230px;
+    font: normal 600 0.9375em/1.0666666667 "Droid Sans",Helvetica,sans-serif;
+    color: #fff;
+    background: #006da3;
+    border-radius: 4px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 1rem;
+}
+
+.boton-azul-max {
+    letter-spacing: initial;
+    text-transform: capitalize;
+    height: 5rem;
+    width: 97%;
+    font: normal 600 0.9375em/1.0666666667 "Droid Sans",Helvetica,sans-serif;
+    color: #fff;
+    background: #006da3;
+    border-radius: 4px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 1rem;
+}
+
+.boton-menu-search {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    float: left;
+    text-align: left;
+}
+
+.boton-azul {
+    background-color: #006da3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-izq-sublist li a {
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+}
+
+.menu-izq-sublist li a:hover {
+    color: #006da3;
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.menu-izq-sublist li a:visited {
+    color:black;
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.profile-menu-box{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.breaking-news{
+    background-color: #ffc518;
+    color:black;
+    height: min-content;
+    margin: 3% 7%;
+}
+
+.news-top{
+    display:flex;
+    width: auto;
+    background-color: white;
+    padding: 2% 7% 3% 7%;
+}
+
+.news-body{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    background-color: white;
+    padding: 0 7% 3% 7%;
+
+}
+
+
+.section-title{
+    border-bottom:2px solid #006da3;
+    font-family: 'Droid Sans', Helvetica, sans-serif;
+    padding: 3px
+}
+
+.time-ago{
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    color: #5d5b5a;
+    font-size: 13px;
+}
+
+.news-top-title{
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1;
+}
+
+.news-top-description{
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #5d5b5a;
+    padding: 5px;
+}
+
+.title-bold{
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+.news-body-title{
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.news-body-title-small{
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.num-round{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #006da3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 6px;
+}
+
+.recom-title {
+    font-family: 'Droid Serif' ,Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2%;
+    flex: 1;
+}
+
+.recom-box {
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+}
+
+.img-cuadricula{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.rss-box{
+    background-color: #f1efeb;
+    width: 270px;
+    height: 250px;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 15px;
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 640px) {
+    .foot-big {
+        display: block; /* Mostrar encabezado grande */
+    }
+    .foot-small {
+        display: none; /* Ocultar encabezado pequeño */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 640px) {
+    .foot-big {
+        display: none; /* Ocultar encabezado grande */
+    }
+    .foot-small {
+        display: block; /* Mostrar encabezado pequeño */
+    }
+}
+
+.site-footer {
+    font-family: "Droid Sans",Helvetica,sans-serif;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ababab;
+    -webkit-box-shadow: 0 1px 8px 0 rgba(0,0,0,.35) inset;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.35) inset;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 2em 10px 90px;
+    padding-bottom: 10px;
+
+}
+
+.foot-box-menu{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 15px;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.foot-box-menu-item{
+    display:flex;
+    margin: 10px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+.foot-box-menu-item a{
+    color:black;
+    text-decoration: none;
+}
+
+.foot-list{
+    padding-left: 0;
+    border-top: none;
+    padding-top: 6px;
+    padding-right: 80px;
+}
+
+.foot-list li {
+    padding-left: 0;
+    color:black;
+    padding-top: 8px;
+}
+
+.foot-list li a{
+    color:black;
+    text-decoration: none;
+}
+
+.foot-menu-rss img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+}
+
+.foot-menu-rss a {
+    text-decoration: none;
+}
+
+.foot-menu-rss-small {
+    display:flex;
+    justify-content: end;
+    padding:10px;
+    text-decoration: none;
+}
+
+.foot-menu-rss-small a {
+    text-decoration: none;
+}
+
+.title-foot-list{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-end{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 200px;
+}
+
+.footer-end-small{
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.footer-end-item{
+    padding: 5px;
+}
+
+.footer-end-item a{
+    color:#5d5b5a;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-big-logo{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+    padding-left: 2.5%;
+}
+
+.footer-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
